@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:text="12 Desember 2021"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/totHargaRiwayat"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:gravity="center"
+        android:text="Rp0"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/totHargaRiwayat"
+        android:layout_marginTop="10dp"
+        android:background="#000"/>
+
+</RelativeLayout>

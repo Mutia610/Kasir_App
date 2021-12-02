@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/namaProdukPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Produk"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/hargaProdukPreview"
+        android:layout_below="@id/namaProdukPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 x Rp10.000"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/totHargaPreview"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:text="Rp0"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/totHargaPreview"
+        android:layout_marginTop="10dp"
+        android:background="#000"/>
+
+</RelativeLayout>
